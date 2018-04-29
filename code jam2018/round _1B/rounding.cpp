@@ -1,5 +1,7 @@
 //https://codejam.withgoogle.com/2018/challenges/0000000000007764/dashboard
 
+//time complexity : nlogn
+
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long
@@ -23,11 +25,6 @@ int main()
 		{
 			cin>>a[i].s;
 			sum+=a[i].s;
-			// double temp=a[i].s.f*100.0/n;
-			// if(temp-floor(temp)>=0.5)
-			// 	a[i].s.s=ceil(temp);
-			// else
-			// 	a[i].s.s=floor(temp);
 		}
 		double p=100.0/n;
 		if(p==floor(p))
